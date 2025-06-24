@@ -3,7 +3,7 @@ import { SSEClientTransport } from "@modelcontextprotocol/sdk/client/sse.js";
 import { logger } from "./utils.js";
 
 const MCP_SERVER_URL =
-  process.env.MCP_SERVER_URL || "http://localhost:10203/sse";
+  process.env.MCP_SERVER_URL || "http://localhost:32200/sse";
 
 // Create MCP client and transport
 const transport = new SSEClientTransport(new URL(MCP_SERVER_URL), {
