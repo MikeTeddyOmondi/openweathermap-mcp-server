@@ -30,7 +30,7 @@ OPENWEATHER_API_KEY=your_api_key_here
 REDIS_URL=redis://localhost:6379
 REDIS_HOST=localhost
 REDIS_POST=6379
-PORT=10203
+PORT=32200
 ```
 
 ## Installation
